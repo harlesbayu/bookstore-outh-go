@@ -17,10 +17,6 @@ const (
 	paramAccessToken = "access_token"
 )
 
-type oauthClient struct{}
-
-type ouathInterface interface{}
-
 type accessToken struct {
 	Id       string `json:"id"`
 	UserId   int64  `json:"userId"`
